@@ -1,0 +1,34 @@
+{
+    "audio": "pipewire",
+    "bootloader": "systemd-bootctl",
+    "custom-commands": [
+        "echo -e '\n[archlinuxcn]\nServer = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$archarch\n' | sudo tee -a /etc/pacman.conf",
+        "pacman -Sy archlinuxcn-keyring"
+],
+    "gfx_driver": [],
+    "filesystem": "btrfs",
+    "harddrives": [
+        "/dev/sda"
+    ],
+    "hostname": "",
+    "kernels": [
+        "linux-zen"
+    ],
+    "keyboard-layout": "us",
+    "mirror-region": "china",
+    "nic": {
+        "NetworkManager": true,
+        "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
+    },
+    "ntp": true,
+    "profile": "kde",
+    "swap": false,
+    "sys-encoding": "utf-8",
+    "sys-language": "en_GB",
+    "timezone": "Asia/Shanghai",
+    "packages": [
+        "vim",
+        "git",
+        "p7zip"
+    ]
+}
