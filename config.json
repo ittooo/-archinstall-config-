@@ -21,7 +21,7 @@
         "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
     },
     "ntp": true,
-    "profile": "kde",
+    "profile": "",
     "swap": false,
     "sys-encoding": "utf-8",
     "sys-language": "en_GB",
