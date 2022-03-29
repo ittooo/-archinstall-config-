@@ -15,7 +15,7 @@
         "linux-zen"
     ],
     "keyboard-layout": "us",
-    "mirror-region": "china",
+    "mirror-region": "China",
     "nic": {
         "NetworkManager": true,
         "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
