@@ -5,7 +5,7 @@
         "echo -e '\n[archlinuxcn]\nServer = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$archarch\n' | sudo tee -a /etc/pacman.conf",
         "pacman -Sy archlinuxcn-keyring"
 ],
-    "gfx_driver": [],
+    "gfx_driver": "",
     "filesystem": "btrfs",
     "harddrives": [
         "/dev/sda"
