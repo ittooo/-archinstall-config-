@@ -28,7 +28,6 @@
     "timezone": "Asia/Shanghai",
     "packages": [
         "vim",
-        "git",
-        "p7zip"
+        "git"
     ]
 }
